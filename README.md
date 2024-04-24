@@ -21,7 +21,7 @@ npm install
 npm start
 
 
-4. Openhttps://task-management-applicat-dcd76.web.app/  in your browser.
+4. Open https://task-management-applicat-dcd76.web.app/  in your browser.
 
 ## Firebase Configuration
 
