@@ -1,0 +1,109 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Container styles */
+#app {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Task styles */
+.task {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.task:hover {
+    transform: translateY(-5px);
+}
+
+.task input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.task-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.task-description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.task-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.task-actions button {
+    padding: 8px 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.task-actions button:hover {
+    background-color: #2980b9;
+}
+
+.task-completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.add-task-form {
+    margin-top: 20px;
+}
+
+.add-task-form input[type="text"] {
+    padding: 12px;
+    width: calc(100% - 130px);
+    border: none;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.add-task-form button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #27ae60;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-task-form button:hover {
+    background-color: #219f53;
+}
