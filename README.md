@@ -21,7 +21,7 @@ npm install
 npm start
 
 
-4. Open http://localhost:3000 in your browser.
+4. Openhttps://task-management-applicat-dcd76.web.app/  in your browser.
 
 ## Firebase Configuration
 
